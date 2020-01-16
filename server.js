@@ -1,7 +1,9 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const bodyParser = require('body-parser');
+
 const tenantRoute = require('./routes/api/tenant'); 
+const expensesRoute = require('./routes/api/expenses');
 
 const app = express();
 
@@ -17,7 +19,8 @@ app.use(bodyParser.json());
 app.use(express.json({ extended: false }));
 
 //Define routes
-app.use('/',tenantRoute);
+app.use('/api/tenants',tenantRoute);
+app.use('/api/expenses',expensesRoute);
 
 
 
