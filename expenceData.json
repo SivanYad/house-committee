@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Cleaning crew",
+        "amount": 520
+    },
+    {
+        "name": "Gardener",
+        "amount": 310
+    },
+    {
+        "name": "Electricity",
+        "amount": 750
+    },
+    {
+        "name": "Fixing the tap",
+        "amount": 100
+    }
+
+]

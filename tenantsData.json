@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Avi Cohen",
+        "apartment": 1,
+        "floor": 1,
+        "isRented": true,
+        "owner": "Emily Durham",
+        "contact": [{"tenentMail": "fakemail1@email.com"}, 
+                    {"ownerMail": "fakemailowner@email.com"},
+                    {"tenentPhone": "050-65173698"},
+                    {"ownerPhone": "052-65173695"}  
+        ],
+        "didPay": false
+    },
+    {
+        "name": "Hana Levi",
+        "apartment": 2,
+        "floor": 1,
+        "isRented": false,
+        "contact": [{"tenentMail": "hanal@gmail.com"}, 
+                    {"tenentPhone": "050-8577793"}
+                    ],
+        "didPay": true,
+        "paidAmount": 800
+    },
+    {
+        "name": "Uri Or",
+        "apartment": 3,
+        "floor": 1,
+        "isRented": true,
+        "owner": "Hana Levi",
+        "contact": [{"tenentMail": "urior@gmail.com"},
+                    {"ownerMail": "hanal@gmail.com"}, 
+                    {"tenentPhone": "050-99999999"},
+                    {"ownerPhone": "050-8577793"}
+                    ],
+        "didPay": true,
+        "paidAmount": 800
+    },
+    {
+        "name": "Lital Gal",
+        "apartment": 4,
+        "floor": 2,
+        "email": "lgal@gmail.com",
+        "isRented": true,
+        "owner": "Moshe Reuven",
+        "contact": [{"tenentMail": "urior@gmail.com"},
+                    {"ownerMail": "hanal@gmail.com"}, 
+                    {"tenentPhone": "050-99999999"},
+                    {"ownerPhone": "050-8577793"}
+                    ],
+        "didPay": true,
+        "paidAmount": 960
+        
+    }
+]
